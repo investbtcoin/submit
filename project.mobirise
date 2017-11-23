@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 25,
+    "uniqCompNum": 27,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -295,7 +295,7 @@
           },
           "title": "WELCOME!",
           "text": "<b>NOTE:</b> Your interest grows every 12GMT.<br>To credit your account with more bitcoin click on INVEST MORE",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://\" data-toolbar=\"-mbrBtnMove\">Awarded bonus:$10<br>Day: one<br>Interest: $2<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://\" data-toolbar=\"-mbrBtnMove\">Credited Btc:00.00<br>Day: 0<br>Interest: 00.00<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://\" data-toolbar=\"-mbrBtnMove\">Referral:00.00<br>Day: 0<br>Username:<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">INVEST MORE</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Withdraw</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"http://investbtcoin.yn.lt/index\" data-toolbar=\"-mbrBtnMove\">Logout</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://\" data-toolbar=\"-mbrBtnMove\">Awarded bonus:$10<br>Day: one<br>Interest: $2<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://\" data-toolbar=\"-mbrBtnMove\">Credited Btc:00.00<br>Day: 0<br>Interest: 00.00<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://\" data-toolbar=\"-mbrBtnMove\">Referral:00.00<br>Day: 0<br>Username:<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\" https://investbtcoin.github.io/pay/invest\" data-toolbar=\"-mbrBtnMove\">INVEST MORE</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://investbtcoin.github.io/cash/withdraw\" data-toolbar=\"-mbrBtnMove\">Withdraw</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"http://investbtcoin.yn.lt/index\" data-toolbar=\"-mbrBtnMove\">Logout</a>"
         }
       ]
     },
@@ -418,7 +418,7 @@
           },
           "title": "How To Credit Your Account",
           "text": "Send the amount of bitcoin you want to credit to the following Address<br> 18Eh3bGcX3L4zr473UbHBtcF229tS6zeSy<br>and after that click on I have made payment and then provide the information needed including your Transaction Id, your account shall be credited within an hour<br>NOTE: If your account is not credited after one hour contact us: investbtcoin@gmail.com<br>or click below to write to our support",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Ihave made payment</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Write to support</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://investbtcoin.yn.lt/index\" data-toolbar=\"-mbrBtnMove\">Logout</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"http://investbtcoin.yn.lt/upload\" data-toolbar=\"-mbrBtnMove\">Ihave made payment</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"http://investbtcoin.yn.lt/support\" data-toolbar=\"-mbrBtnMove\">Write to support</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://investbtcoin.yn.lt/index\" data-toolbar=\"-mbrBtnMove\">Logout</a>"
         }
       ]
     },
@@ -664,6 +664,129 @@
           },
           "title": "SUBMITTED!",
           "text": "Thanks for reaching us, we shall respond to you via your email.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://investbtcoin.github.io/home/Home\" data-toolbar=\"-mbrBtnMove\">Back Home</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"http://investbtcoin.yn.lt/index\" data-toolbar=\"-mbrBtnMove\">Logout</a>"
+        }
+      ]
+    },
+    "withdraw": {
+      "settings": {
+        "title": "invest btc",
+        "meta_descr": "we help invest your bitcoin by minning...."
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-p",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/download-3-208x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">COIN INVEST</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://investbtcoin.github.io/home/Home\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://\" aria-expanded=\"false\">About us</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact us<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">investbtcoin@gmail.com</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"http://investbtcoin.yn.lt/index\">Login/Logout</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-q",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2b0680",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "opps!",
+          "text": "Soy you can not make withdrawal until the 10th day of your investment",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://investbtcoin.github.io/home/Home\" data-toolbar=\"-mbrBtnMove\">Back Home</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"http://investbtcoin.yn.lt/index\" data-toolbar=\"-mbrBtnMove\">Logout</a>"
         }
       ]
