@@ -663,7 +663,7 @@
             "showButtons": true
           },
           "title": "SUBMITTED!",
-          "text": "Thanks for reaching us, we shall respond to you via your email.",
+          "text": "Thanks for reaching us, we shall respond to you via your inbox<br>To check you message click on logout then click on inbox",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://investbtcoin.github.io/home/Home\" data-toolbar=\"-mbrBtnMove\">Back Home</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"http://investbtcoin.yn.lt/index\" data-toolbar=\"-mbrBtnMove\">Logout</a>"
         }
       ]
